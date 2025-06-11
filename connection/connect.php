@@ -6,10 +6,10 @@ ini_set('html_errors', 1);
 
 
 //main connection file for both admin & front end
-$servername = "127.0.0.1"; //server
+$servername = "127.0.0.1"; //localhost server address
 $username = "root"; //username
 $password = ""; //password
-$dbname = "onlinewater";  //database
+$dbname = "onlinewater";  //database name
 
 // Create connection
 $db = mysqli_connect($servername, $username, $password, $dbname); // connecting 
