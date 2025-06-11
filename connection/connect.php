@@ -1,10 +1,15 @@
 <?php
+// error management
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+ini_set('html_errors', 1);
+
 
 //main connection file for both admin & front end
-$servername = "localhost"; //server
+$servername = "127.0.0.1"; //server
 $username = "root"; //username
 $password = ""; //password
-$dbname = "onlinefoodphp";  //database
+$dbname = "onlinewater";  //database
 
 // Create connection
 $db = mysqli_connect($servername, $username, $password, $dbname); // connecting 

@@ -1,6 +1,6 @@
 /*!
  * Foodpicky HTML template V 1.0
- * A simple and easy to use HTML template designed for online food ordering.
+ * A simple and easy to use HTML template designed for Online Water ordering.
  * http://codenpixel.com
  * Author : codenpixel (http://codenpixel.com/)
  */

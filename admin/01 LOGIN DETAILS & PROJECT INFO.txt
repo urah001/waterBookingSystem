@@ -10,5 +10,7 @@
 **Admin Login Details**
 
 Username: admin
-Password: codeastro
+Password: admin123
 
+username : sam 
+Password : codeastro

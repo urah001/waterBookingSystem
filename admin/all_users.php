@@ -90,9 +90,9 @@ session_start();
                         <li> <a href="all_users.php">  <span><i class="fa fa-user f-s-20 "></i></span><span>Users</span></a></li>
                         <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-archive f-s-20 color-warning"></i><span class="hide-menu">Restaurant</span></a>
                             <ul aria-expanded="false" class="collapse">
-								<li><a href="all_restaurant.php">All Restaurants</a></li>
+								<li><a href="all_vendor.php">All Vendors</a></li>
 								<li><a href="add_category.php">Add Category</a></li>
-                                <li><a href="add_restaurant.php">Add Restaurant</a></li>
+                                <li><a href="add_vendor.php">Add Vendor</a></li>
                                 
                             </ul>
                         </li>
@@ -183,7 +183,7 @@ session_start();
                 </div>
              
             </div>
-            <footer class="footer"> © 2022 - Online Food Ordering System</footer>
+            <footer class="footer"> © 2025 - Online Water Ordering System</footer>
            
         </div>
      

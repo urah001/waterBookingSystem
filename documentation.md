@@ -5,3 +5,6 @@ changed the extension of some files : index.php => index.html , login.php => log
 
 # discovered 
 the login doesnt work well 
+fix it , turns out the implementation of the php is wrong 
+
+converting from a : `web based food ordering system` to a `web based water booking and management system` 

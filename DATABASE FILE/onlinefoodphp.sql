@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 27, 2022 at 03:22 PM
+-- Generation Time: May 27, 2025 at 03:22 PM
 -- Server version: 5.6.21
 -- PHP Version: 5.6.3
 
@@ -40,7 +40,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`adm_id`, `username`, `password`, `email`, `code`, `date`) VALUES
-(1, 'admin', 'CAC29D7A34687EB14B37068EE4708E7B', 'admin@mail.com', '', '2022-05-27 13:21:52');
+(1, 'admin', 'CAC29D7A34687EB14B37068EE4708E7B', 'admin@mail.com', '', '2025-05-27 13:21:52');
 
 -- --------------------------------------------------------
 
@@ -98,18 +98,18 @@ CREATE TABLE `remark` (
 --
 
 INSERT INTO `remark` (`id`, `frm_id`, `status`, `remark`, `remarkDate`) VALUES
-(1, 2, 'in process', 'none', '2022-05-01 05:17:49'),
-(2, 3, 'in process', 'none', '2022-05-27 11:01:30'),
-(3, 2, 'closed', 'thank you for your order!', '2022-05-27 11:11:41'),
-(4, 3, 'closed', 'none', '2022-05-27 11:42:35'),
-(5, 4, 'in process', 'none', '2022-05-27 11:42:55'),
-(6, 1, 'rejected', 'none', '2022-05-27 11:43:26'),
-(7, 7, 'in process', 'none', '2022-05-27 13:03:24'),
-(8, 8, 'in process', 'none', '2022-05-27 13:03:38'),
-(9, 9, 'rejected', 'thank you', '2022-05-27 13:03:53'),
-(10, 7, 'closed', 'thank you for your ordering with us', '2022-05-27 13:04:33'),
-(11, 8, 'closed', 'thanks ', '2022-05-27 13:05:24'),
-(12, 5, 'closed', 'none', '2022-05-27 13:18:03');
+(1, 2, 'in process', 'none', '2025-05-01 05:17:49'),
+(2, 3, 'in process', 'none', '2025-05-27 11:01:30'),
+(3, 2, 'closed', 'thank you for your order!', '2025-05-27 11:11:41'),
+(4, 3, 'closed', 'none', '2025-05-27 11:42:35'),
+(5, 4, 'in process', 'none', '2025-05-27 11:42:55'),
+(6, 1, 'rejected', 'none', '2025-05-27 11:43:26'),
+(7, 7, 'in process', 'none', '2025-05-27 13:03:24'),
+(8, 8, 'in process', 'none', '2025-05-27 13:03:38'),
+(9, 9, 'rejected', 'thank you', '2025-05-27 13:03:53'),
+(10, 7, 'closed', 'thank you for your ordering with us', '2025-05-27 13:04:33'),
+(11, 8, 'closed', 'thanks ', '2025-05-27 13:05:24'),
+(12, 5, 'closed', 'none', '2025-05-27 13:18:03');
 
 -- --------------------------------------------------------
 
@@ -137,10 +137,10 @@ CREATE TABLE `restaurant` (
 --
 
 INSERT INTO `restaurant` (`rs_id`, `c_id`, `title`, `email`, `phone`, `url`, `o_hr`, `c_hr`, `o_days`, `address`, `image`, `date`) VALUES
-(1, 1, 'North Street Tavern', 'nthavern@mail.com', '3547854700', 'www.northstreettavern.com', '8am', '8pm', 'mon-sat', '1128 North St, White Plains', '6290877b473ce.jpg', '2022-05-27 08:10:35'),
-(2, 2, 'Eataly', 'eataly@gmail.com', '0557426406', 'www.eataly.com', '11am', '9pm', 'Mon-Sat', '800 Boylston St, Boston', '606d720b5fc71.jpg', '2022-05-27 08:06:41'),
-(3, 3, 'Nan Xiang Xiao Long Bao', 'nanxiangbao45@mail.com', '1458745855', 'www.nanxiangbao45.com', '9am', '8pm', 'mon-sat', 'Queens, New York', '6290860e72d1e.jpg', '2022-05-27 08:04:30'),
-(4, 4, 'Highlands Bar & Grill', 'hbg@mail.com', '6545687458', 'www.hbg.com', '7am', '8pm', 'mon-sat', '812 Walter Street', '6290af6f81887.jpg', '2022-05-27 11:01:03');
+(1, 1, 'North Street Tavern', 'nthavern@mail.com', '3547854700', 'www.northstreettavern.com', '8am', '8pm', 'mon-sat', '1128 North St, White Plains', '6290877b473ce.jpg', '2025-05-27 08:10:35'),
+(2, 2, 'Eataly', 'eataly@gmail.com', '0557426406', 'www.eataly.com', '11am', '9pm', 'Mon-Sat', '800 Boylston St, Boston', '606d720b5fc71.jpg', '2025-05-27 08:06:41'),
+(3, 3, 'Nan Xiang Xiao Long Bao', 'nanxiangbao45@mail.com', '1458745855', 'www.nanxiangbao45.com', '9am', '8pm', 'mon-sat', 'Queens, New York', '6290860e72d1e.jpg', '2025-05-27 08:04:30'),
+(4, 4, 'Highlands Bar & Grill', 'hbg@mail.com', '6545687458', 'www.hbg.com', '7am', '8pm', 'mon-sat', '812 Walter Street', '6290af6f81887.jpg', '2025-05-27 11:01:03');
 
 -- --------------------------------------------------------
 
@@ -159,7 +159,7 @@ CREATE TABLE `res_category` (
 --
 
 INSERT INTO `res_category` (`c_id`, `c_name`, `date`) VALUES
-(1, 'Continental', '2022-05-27 08:07:35'),
+(1, 'Continental', '2025-05-27 08:07:35'),
 (2, 'Italian', '2021-04-07 08:45:23'),
 (3, 'Chinese', '2021-04-07 08:45:25'),
 (4, 'American', '2021-04-07 08:45:28');
@@ -188,12 +188,12 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`u_id`, `username`, `f_name`, `l_name`, `email`, `phone`, `password`, `address`, `status`, `date`) VALUES
-(1, 'eric', 'Eric', 'Lopez', 'eric@mail.com', '1458965547', 'a32de55ffd7a9c4101a0c5c8788b38ed', '87 Armbrester Drive', 1, '2022-05-27 08:40:36'),
-(2, 'harry', 'Harry', 'Holt', 'harryh@mail.com', '3578545458', 'bc28715006af20d0e961afd053a984d9', '33 Stadium Drive', 1, '2022-05-27 08:41:07'),
-(3, 'james', 'James', 'Duncan', 'james@mail.com', '0258545696', '58b2318af54435138065ee13dd8bea16', '67 Hiney Road', 1, '2022-05-27 08:41:37'),
-(4, 'christine', 'Christine', 'Moore', 'christine@mail.com', '7412580010', '5f4dcc3b5aa765d61d8327deb882cf99', '114 Test Address', 1, '2022-05-01 05:14:42'),
-(5, 'scott', 'Scott', 'Miller', 'scott@mail.com', '7896547850', '5f4dcc3b5aa765d61d8327deb882cf99', '63 Charack Road', 1, '2022-05-27 10:53:51'),
-(6, 'liamoore', 'Liam', 'Moore', 'liamoore@mail.com', '7896969696', '5f4dcc3b5aa765d61d8327deb882cf99', '122 Bleck Street', 1, '2022-05-27 12:57:00');
+(1, 'eric', 'Eric', 'Lopez', 'eric@mail.com', '1458965547', 'a32de55ffd7a9c4101a0c5c8788b38ed', '87 Armbrester Drive', 1, '2025-05-27 08:40:36'),
+(2, 'harry', 'Harry', 'Holt', 'harryh@mail.com', '3578545458', 'bc28715006af20d0e961afd053a984d9', '33 Stadium Drive', 1, '2025-05-27 08:41:07'),
+(3, 'james', 'James', 'Duncan', 'james@mail.com', '0258545696', '58b2318af54435138065ee13dd8bea16', '67 Hiney Road', 1, '2025-05-27 08:41:37'),
+(4, 'christine', 'Christine', 'Moore', 'christine@mail.com', '7412580010', '5f4dcc3b5aa765d61d8327deb882cf99', '114 Test Address', 1, '2025-05-01 05:14:42'),
+(5, 'scott', 'Scott', 'Miller', 'scott@mail.com', '7896547850', '5f4dcc3b5aa765d61d8327deb882cf99', '63 Charack Road', 1, '2025-05-27 10:53:51'),
+(6, 'liamoore', 'Liam', 'Moore', 'liamoore@mail.com', '7896969696', '5f4dcc3b5aa765d61d8327deb882cf99', '122 Bleck Street', 1, '2025-05-27 12:57:00');
 
 -- --------------------------------------------------------
 
@@ -216,15 +216,15 @@ CREATE TABLE `users_orders` (
 --
 
 INSERT INTO `users_orders` (`o_id`, `u_id`, `title`, `quantity`, `price`, `status`, `date`) VALUES
-(1, 4, 'Spring Rolls', 2, '6.00', 'rejected', '2022-05-27 11:43:26'),
-(2, 4, 'Prawn Crackers', 1, '7.00', 'closed', '2022-05-27 11:11:41'),
-(3, 5, 'Chicken Madeira', 1, '23.00', 'closed', '2022-05-27 11:42:35'),
-(4, 5, 'Cheesy Mashed Potato', 1, '5.00', 'in process', '2022-05-27 11:42:55'),
-(5, 5, 'Meatballs Penne Pasta', 1, '10.00', 'closed', '2022-05-27 13:18:03'),
-(6, 5, 'Yorkshire Lamb Patties', 1, '14.00', NULL, '2022-05-27 11:40:51'),
-(7, 6, 'Yorkshire Lamb Patties', 1, '14.00', 'closed', '2022-05-27 13:04:33'),
-(8, 6, 'Lobster Thermidor', 1, '36.00', 'closed', '2022-05-27 13:05:24'),
-(9, 6, 'Stuffed Jacket Potatoes', 1, '8.00', 'rejected', '2022-05-27 13:03:53');
+(1, 4, 'Spring Rolls', 2, '6.00', 'rejected', '2025-05-27 11:43:26'),
+(2, 4, 'Prawn Crackers', 1, '7.00', 'closed', '2025-05-27 11:11:41'),
+(3, 5, 'Chicken Madeira', 1, '23.00', 'closed', '2025-05-27 11:42:35'),
+(4, 5, 'Cheesy Mashed Potato', 1, '5.00', 'in process', '2025-05-27 11:42:55'),
+(5, 5, 'Meatballs Penne Pasta', 1, '10.00', 'closed', '2025-05-27 13:18:03'),
+(6, 5, 'Yorkshire Lamb Patties', 1, '14.00', NULL, '2025-05-27 11:40:51'),
+(7, 6, 'Yorkshire Lamb Patties', 1, '14.00', 'closed', '2025-05-27 13:04:33'),
+(8, 6, 'Lobster Thermidor', 1, '36.00', 'closed', '2025-05-27 13:05:24'),
+(9, 6, 'Stuffed Jacket Potatoes', 1, '8.00', 'rejected', '2025-05-27 13:03:53');
 
 --
 -- Indexes for dumped tables

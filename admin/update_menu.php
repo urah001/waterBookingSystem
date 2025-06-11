@@ -152,11 +152,11 @@ if(isset($_POST['submit']))           //if upload btn is pressed
                         <li> <a href="dashboard.php"><i class="fa fa-tachometer"></i><span>Dashboard</span></a></li>
                         <li class="nav-label">Log</li>
                         <li> <a href="all_users.php">  <span><i class="fa fa-user f-s-20 "></i></span><span>Users</span></a></li>
-                        <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-archive f-s-20 color-warning"></i><span class="hide-menu">Restaurant</span></a>
+                        <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-archive f-s-20 color-warning"></i><span class="hide-menu">Vendor</span></a>
                             <ul aria-expanded="false" class="collapse">
-								<li><a href="all_restaurant.php">All Restaurants</a></li>
+								<li><a href="all_vendor.php">All Vendors</a></li>
 								<li><a href="add_category.php">Add Category</a></li>
-                                <li><a href="add_restaurant.php">Add Restaurant</a></li>
+                                <li><a href="add_vendor.php">Add Vendor</a></li>
                                 
                             </ul>
                         </li>
@@ -279,7 +279,7 @@ if(isset($_POST['submit']))           //if upload btn is pressed
                         </div>
                     </div>
 
-					<footer class="footer"> © 2022 - Online Food Ordering System </footer>
+					<footer class="footer"> © 2025 - Online Water Ordering System </footer>
 					
                 </div>
              

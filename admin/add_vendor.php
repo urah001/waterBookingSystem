@@ -64,7 +64,7 @@ if(isset($_POST['submit']))
 			  
 													$success = 	'<div class="alert alert-success alert-dismissible fade show">
 																<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-																 New Restaurant Added Successfully.
+																 New Vendor Added Successfully.
 															</div>';
                 
 	
@@ -113,7 +113,7 @@ if(isset($_POST['submit']))
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
-    <title>Add Restaurant</title>
+    <title>Add Vendors</title>
     <link href="css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link href="css/helper.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -192,9 +192,9 @@ if(isset($_POST['submit']))
                         <li> <a href="all_users.php">  <span><i class="fa fa-user f-s-20 "></i></span><span>Users</span></a></li>
                         <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-archive f-s-20 color-warning"></i><span class="hide-menu">Restaurant</span></a>
                             <ul aria-expanded="false" class="collapse">
-								<li><a href="all_restaurant.php">All Restaurants</a></li>
+								<li><a href="all_vendor.php">All Vendors</a></li>
 								<li><a href="add_category.php">Add Category</a></li>
-                                <li><a href="add_restaurant.php">Add Restaurant</a></li>
+                                <li><a href="add_vendor.php">Add Vendor</a></li>
                                 
                             </ul>
                         </li>
@@ -232,7 +232,7 @@ if(isset($_POST['submit']))
                                     <div class="col-lg-12">
                         <div class="card card-outline-primary">
                             <div class="card-header">
-                                <h4 class="m-b-0 text-white">Add Restaurant</h4>
+                                <h4 class="m-b-0 text-white">Add Vendor</h4>
                             </div>
                             <div class="card-body">
                                 <form action='' method='post'  enctype="multipart/form-data">
@@ -242,7 +242,7 @@ if(isset($_POST['submit']))
                                         <div class="row p-t-20">
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label class="control-label">Restaurant Name</label>
+                                                    <label class="control-label">Vendor Name</label>
                                                     <input type="text" name="res_name" class="form-control">
                                                    </div>
                                             </div>
@@ -278,7 +278,7 @@ if(isset($_POST['submit']))
                                                 <div class="form-group">
                                                     <label class="control-label">Open Hours</label>
                                                     <select name="o_hr" class="form-control custom-select" data-placeholder="Choose a Category" >
-                                                     <option>--Select your Hours--</option>
+                                                     <option value="">--Select your Hours--</option>
                                                         <option value="6am">6am</option>
                                                         <option value="7am">7am</option> 
 														<option value="8am">8am</option>
@@ -294,7 +294,7 @@ if(isset($_POST['submit']))
                                                 <div class="form-group">
                                                     <label class="control-label">Close Hours</label>
                                                     <select name="c_hr" class="form-control custom-select" data-placeholder="Choose a Category" >
-                                                     <option>--Select your Hours--</option>
+                                                     <option value="">--Select your Hours--</option>
                                                         <option value="3pm">3pm</option>
                                                         <option value="4pm">4pm</option> 
 														<option value="5pm">5pm</option>
@@ -316,7 +316,7 @@ if(isset($_POST['submit']))
                                                 <div class="form-group">
                                                     <label class="control-label">Open Days</label>
                                                     <select name="o_days" class="form-control custom-select" data-placeholder="Choose a Category" tabindex="1">
-                                                        <option>--Select your Days--</option>
+                                                        <option value="">--Select your Days--</option>
                                                         <option value="Mon-Tue">Mon-Tue</option>
                                                         <option value="Mon-Wed">Mon-Wed</option> 
 														<option value="Mon-Thu">Mon-Thu</option>
@@ -342,7 +342,7 @@ if(isset($_POST['submit']))
                                                 <div class="form-group">
                                                     <label class="control-label">Select Category</label>
 													<select name="c_name" class="form-control custom-select" data-placeholder="Choose a Category" tabindex="1">
-                                                        <option>--Select Category--</option>
+                                                        <option value="">--Select Category--</option>
                                                  <?php $ssql ="select * from res_category";
 													$res=mysqli_query($db, $ssql); 
 													while($row=mysqli_fetch_array($res))  
@@ -359,7 +359,7 @@ if(isset($_POST['submit']))
 											
                                         </div>
                         
-                                        <h3 class="box-title m-t-40">Restaurant Address</h3>
+                                        <h3 class="box-title m-t-40">Vendor Address</h3>
                                         <hr>
                                         <div class="row">
                                             <div class="col-md-12 ">
@@ -375,13 +375,13 @@ if(isset($_POST['submit']))
                                     </div>
                                     <div class="form-actions">
                                         <input type="submit" name="submit" class="btn btn-primary" value="Save"> 
-                                        <a href="add_restaurant.php" class="btn btn-inverse">Cancel</a>
+                                        <a href="add_vendor.php" class="btn btn-inverse">Cancel</a>
                                     </div>
                                 </form>
                             </div>
                         </div>
                     </div>
-					<footer class="footer"> © 2022 - Online Food Ordering System </footer>
+					<footer class="footer"> © 2025 - Online Water Ordering System </footer>
                 </div>
                 
             </div>
