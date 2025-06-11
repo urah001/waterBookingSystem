@@ -36,16 +36,18 @@ session_start();
     <header id="header" class="header-scroll top-header headrom">
         <nav class="navbar navbar-dark">
             <div class="container">
-                <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#mainNavbarCollapse">
+                <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse"
+                    data-target="#mainNavbarCollapse">
                     &#9776;
                 </button>
-                <a class="navbar-brand" href="index.php">
-                    <img class="img-rounded" src="images/icn.png" alt="Logo">
+                <a class="hero-text navbar-brand" style="font-family:oblique;" href="index.php">
+                    VendorDrops
+                    <!-- <img class="img-rounded" src="images/icn.png" alt="">  -->
                 </a>
                 <div class="collapse navbar-toggleable-md float-lg-right" id="mainNavbarCollapse">
                     <ul class="nav navbar-nav">
                         <li class="nav-item"><a class="nav-link active" href="index.php">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="restaurants.php">Vendors</a></li>
+                        <li class="nav-item"><a class="nav-link" href="vendors.php">Vendors</a></li>
                         <?php if (empty($_SESSION["user_id"])): ?>
                             <li class="nav-item"><a href="login.php" class="nav-link">Login</a></li>
                             <li class="nav-item"><a href="registration.php" class="nav-link">Register</a></li>
@@ -60,7 +62,7 @@ session_start();
     </header>
 
     <!-- Hero Section -->
-    <section class="hero bg-image" data-image-src="images/img/pimg.jpg">
+    <section class="hero bg-image" data-image-src="images/img/pimg.jpeg">
         <div class="hero-inner">
             <div class="container text-center hero-text font-white">
                 <h1>Order Delivery & Take-Out</h1>
@@ -98,4 +100,5 @@ session_start();
     <!-- Include Footer or other content here if needed -->
 
 </body>
+
 </html>

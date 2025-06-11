@@ -80,16 +80,16 @@ if(isset($_POST['submit'] ))
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet"> </head>
 <body>
-<div style=" background-image: url('images/img/pimg.jpg');">
+<div style=" background-image: url('images/img/pimg.jpeg');">
          <header id="header" class="header-scroll top-header headrom">
             <nav class="navbar navbar-dark">
                <div class="container">
                   <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#mainNavbarCollapse">&#9776;</button>
-                  <a class="navbar-brand" href="index.php"> <img class="img-rounded" src="images/icn.png" alt=""> </a>
+                  <a class="navbar-brand" style="font-family:oblique;" href="index.php"> VendorDrop </a>
                   <div class="collapse navbar-toggleable-md  float-lg-right" id="mainNavbarCollapse">
                      <ul class="nav navbar-nav">
 							<li class="nav-item"> <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a> </li>
-                            <li class="nav-item"> <a class="nav-link active" href="restaurants.php">Vendors <span class="sr-only"></span></a> </li>
+                            <li class="nav-item"> <a class="nav-link active" href="vendors.php">Vendors <span class="sr-only"></span></a> </li>
                             
 							<?php
 						if(empty($_SESSION["user_id"]))
@@ -148,7 +148,7 @@ if(isset($_POST['submit'] ))
                                     </div>
                                     <div class="form-group col-sm-6">
                                        <label for="exampleInputEmail1">Phone number</label>
-                                       <input class="form-control" type="text" name="phone" id="example-tel-input-3"> 
+                                       <input class="form-control" placeholder="use contry code(+234)" type="text" name="phone" id="example-tel-input-3"> 
                                     </div>
                                     <div class="form-group col-sm-6">
                                        <label for="exampleInputPassword1">Password</label>
@@ -199,23 +199,23 @@ if(isset($_POST['submit'] ))
                                     <a href="#"> <img src="images/mastercard.png" alt="Mastercard"> </a>
                                  </li>
                                  <li>
+                                    <a href="#"> transfer </a>
+                                 </li>
+                                 <li>
                                     <a href="#"> <img src="images/maestro.png" alt="Maestro"> </a>
                                  </li>
                                  <li>
-                                    <a href="#"> <img src="images/stripe.png" alt="Stripe"> </a>
-                                 </li>
-                                 <li>
-                                    <a href="#"> <img src="images/bitcoin.png" alt="Bitcoin"> </a>
+                                    <a href="#"> POS </a>
                                  </li>
                               </ul>
                            </div>
                            <div class="col-xs-12 col-sm-4 address color-gray">
                                     <h5>Address</h5>
-                                    <p>1086 Stockert Hollow Road, Seattle</p>
-                                    <h5>Phone: 75696969855</a></h5> </div>
+                                    <p>osara Okene</p>
+                                    <h5>Phone:+234 71696969855</a></h5> </div>
                                 <div class="col-xs-12 col-sm-5 additional-info color-gray">
                                     <h5>Addition informations</h5>
-                                   <p>Join thousands of other restaurants who benefit from having partnered with us.</p>
+                                   <p>Join thousands of other users who benefit from having partnered with us.</p>
                                 </div>
                         </div>
                      </div>

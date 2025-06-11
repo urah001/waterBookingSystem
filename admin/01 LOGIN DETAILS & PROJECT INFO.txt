@@ -14,3 +14,6 @@ Password: admin123
 
 username : sam 
 Password : codeastro
+
+username : user 
+Password : 12345678
