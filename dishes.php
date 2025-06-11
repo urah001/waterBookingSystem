@@ -185,7 +185,7 @@ $item_total += ($item["price"]*$item["quantity"]);
                     <div class="col-md-8">
                       
              
-                        <div class="menu-widget" id="2">
+                        <!--<div class="menu-widget" id="2">
                             <div class="widget-heading">
                                 <h3 class="widget-title text-dark">
                               MENU <a class="btn btn-link pull-right" data-toggle="collapse" href="#popular2" aria-expanded="true">
@@ -244,7 +244,7 @@ $item_total += ($item["price"]*$item["quantity"]);
                               
                             </div>
              
-                        </div>
+                        </div>-->
             
                        
                     </div>

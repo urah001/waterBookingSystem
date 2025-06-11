@@ -91,7 +91,7 @@ if (empty($_SESSION["adm_id"])) {
 
                                 </ul>
                             </li>
-                            <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-cutlery"
+                            <!-- <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-cutlery"
                                         aria-hidden="true"></i><span class="hide-menu">Menu</span></a>
                                 <ul aria-expanded="false" class="collapse">
                                     <li><a href="all_menu.php">All Menues</a></li>
@@ -99,7 +99,7 @@ if (empty($_SESSION["adm_id"])) {
 
 
                                 </ul>
-                            </li>
+                            </li> -->
                             <li> <a href="all_orders.php"><i class="fa fa-shopping-cart"
                                         aria-hidden="true"></i><span>Orders</span></a></li>
 
