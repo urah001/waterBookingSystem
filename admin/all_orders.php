@@ -103,7 +103,7 @@ session_start();
                                         class="fa fa-user f-s-20 "></i></span><span>Users</span></a></li>
                         <li> <a class="has-arrow  " href="#" aria-expanded="false"><i
                                     class="fa fa-archive f-s-20 color-warning"></i><span
-                                    class="hide-menu">Restaurant</span></a>
+                                    class="hide-menu">Vendors</span></a>
                             <ul aria-expanded="false" class="collapse">
                                 <li><a href="all_vendor.php">All Vendors</a></li>
                                 <li><a href="add_category.php">Add Category</a></li>
@@ -165,7 +165,12 @@ session_start();
 
 
                                             <?php
-                                            $sql = "SELECT users.*, users_orders.* FROM users INNER JOIN users_orders ON users.u_id=users_orders.u_id ";
+                                            error_reporting(E_ALL);
+                                            ini_set('display_errors', 1);
+                                            ini_set('html_errors', 1);
+                                            
+                                            
+                                            $sql = "SELECT users.*, orders.* FROM users INNER JOIN orders ON users.u_id=orders.user_id ";
                                             $query = mysqli_query($db, $sql);
 
                                             if (!mysqli_num_rows($query) > 0) {
@@ -177,7 +182,7 @@ session_start();
                                                     <?php
                                                     echo ' <tr>
 																					           <td>' . $rows['username'] . '</td>
-																								<td>' . $rows['title'] . '</td>
+																								
 																								<td>' . $rows['quantity'] . '</td>
 																								<td>$' . $rows['price'] . '</td>
 																								<td>' . $rows['address'] . '</td>';
