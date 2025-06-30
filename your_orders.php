@@ -249,7 +249,7 @@ if (empty($_SESSION['user_id'])) {
 													<tr>
 														<td data-column="Item"> <?php echo $row['item']; ?></td>
 														<td data-column="Quantity"> <?php echo $row['quantity']; ?></td>
-														<td data-column="price">$<?php echo $row['price']; ?></td>
+														<td data-column="price">₦<?php echo $row['price']; ?></td>
 														<td data-column="status">
 															<?php
 															error_reporting(E_ALL);
