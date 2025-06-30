@@ -4,7 +4,6 @@
 
 
 **Admin Login Details**
-
 Username: admin
 Password: codeastro
 

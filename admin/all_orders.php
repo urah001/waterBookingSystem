@@ -184,7 +184,7 @@ session_start();
 																					           <td>' . $rows['username'] . '</td>
 																								
 																								<td>' . $rows['quantity'] . '</td>
-																								<td>$' . $rows['price'] . '</td>
+																								<td> ₦' . $rows['price'] . '</td>
 																								<td>' . $rows['address'] . '</td>';
                                                     ?>
                                                     <?php

@@ -65,7 +65,7 @@ session_start();
     <section class="hero bg-image" data-image-src="images/img/pimg.jpeg">
         <div class="hero-inner">
             <div class="container text-center hero-text font-white">
-                <h1>Order Delivery & Take-Out</h1>
+                <h1>Osara Water Fetching Unit</h1>
                 <div class="banner-form">
                     <form class="form-inline">
                         <!-- Search form can be added here in future -->
