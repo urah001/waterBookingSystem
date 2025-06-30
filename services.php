@@ -30,7 +30,9 @@ if (isset($_POST['book'])) {
 </head>
 
 <body>
+    
     <div class="container mt-5">
+        
         <h2 class="text-center mb-4">Book & Pay for Water</h2>
 
         <?php if (isset($success)): ?>
