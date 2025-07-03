@@ -46,8 +46,8 @@ if (isset($_POST['book'])) {
                 <label for="item">Select Water Type:</label>
                 <select name="item" id="item" class="form-control" onchange="updatePrice()">
                     <option value="Pure Water Sachet" data-price="10">Pure Water Sachet - ₦10</option>
-                    <option value="Bottled Water" data-price="100">Bottled Water - ₦100</option>
-                    <option value="jerican of water" data-price="200">jerican of water  - ₦200</option>
+                    <option value="Bottled Water" data-price="30">Bottled Water - ₦30</option>
+                    <option value="jerican of water" data-price="50">jerican of water  - ₦50</option>
                 </select>
             </div>
 

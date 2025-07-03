@@ -261,7 +261,7 @@ if (empty($_SESSION['user_id'])) {
 															if ($status == "Paid") {
 																?>
 																<button type="button" class="btn btn-success"><span class="fa fa-check"
-																		aria-hidden="true"></span> Paid expected in 10 mins</button>
+																		aria-hidden="true"></span> come over to pick your water </button>
 																<?php
 															}
 															if ($status == "" or $status == "NULL") {
@@ -341,7 +341,8 @@ if (empty($_SESSION['user_id'])) {
         <div class="container">
             <div class="bottom-footer">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-3 payment-options color-gray">
+                <!-- payment option    
+				<div class="col-xs-12 col-sm-3 payment-options color-gray">
                         <h5>Payment Options</h5>
                         <ul>
                             <li>
@@ -360,7 +361,7 @@ if (empty($_SESSION['user_id'])) {
                                 <a href="#"> POS </a>
                             </li>
                         </ul>
-                    </div>
+                    </div> -->
                     <div class="col-xs-12 col-sm-4 address color-gray">
                         <h5>Address</h5>
                         <p>1086 Water Lane, Okene, Kogi State</p>

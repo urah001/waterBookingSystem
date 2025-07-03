@@ -143,7 +143,7 @@ else{
                                                         <td> <?php echo "$".$item_total; ?></td>
                                                     </tr>
                                                     <tr>
-                                                        <td>Delivery Charges</td>
+                                                        <td> Charges</td>
                                                         <td>Free</td>
                                                     </tr>
                                                     <tr>
